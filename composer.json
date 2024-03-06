@@ -1,5 +1,5 @@
 {
-    "name": "webstdcode/allegro-api",
+    "name": "ircykk/allegro-api",
     "description": "Allegro API client",
     "keywords": ["allegro api", "rest", "soap", "sandbox"],
     "type": "library",
@@ -26,7 +26,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "webstdcode\\AllegroApi\\": "src/"
+            "Ircykk\\AllegroApi\\": "src/"
         },
         "files": [
             "src/Soap/Types/autoload.php"
