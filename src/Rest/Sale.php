@@ -123,4 +123,12 @@ class Sale extends AbstractRestResource
         return new Sale\Disputes($this->client);
     }
 
+
+    public function ProductProposals(){
+        return new Sale\ProductProposals($this->client);
+    }
+
+
+
+
 }
